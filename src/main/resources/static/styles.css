@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #3e06ad;
+}
+
+
+#years span {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#years span:hover {
+    background-color: #e0e0e0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #DDD;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #E0E0E0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+
+button {
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.detail {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button.change-ranking {
+    background-color: #FFC107;
+    color: black;
+}
+
+button.comments {
+    background-color: #2196F3;
+    color: white;
+}
